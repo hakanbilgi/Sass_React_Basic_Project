@@ -32,13 +32,13 @@
         }
       }
 
-      
+
       &--small {
-        background-color: $olive;
+        background-color: rgba(245, 33, 33, 0.895);
         padding: 0.7rem;
       }
       &--large {
-        background-color: $lightOrange;
+        background-color: rgba(32, 204, 32, 0.856);
         padding: 0.7rem 1.5rem;
       }
     }
