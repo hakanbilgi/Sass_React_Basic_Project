@@ -1,8 +1,10 @@
-import React from 'react'
+import HeaderStyle from "../scss/header.module.scss"
 
 const Header = () => {
   return (
-    <div>Header</div>
+  <header>
+    <h1>Comments</h1>
+  </header>
   )
 }
 
