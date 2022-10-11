@@ -1,11 +1,11 @@
-import HeaderStyle from "../scss/header.module.scss"
+import HeaderStyle from "../scss/header.module.scss";
 
 const Header = () => {
   return (
-  <header>
-    <h1>Comments</h1>
-  </header>
-  )
-}
+    <div className={HeaderStyle.header}>
+      <h1>COMMENTS</h1>
+    </div>
+  );
+};
 
-export default Header
+export default Header;
